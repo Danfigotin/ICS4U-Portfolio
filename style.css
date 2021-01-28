@@ -1,1 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    min-height: 100%;
+}
 
+body{
+    font-family: courier New, monospace;
+    object-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-image: linear-gradient( white, #47476b);
+   
+}
+
+p{
+    text-align: center;
+}
+
+
+nav{
+    background: #47476b;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+} 
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a.active, a.hover{
+background-color:#47476b;
+transition: .5s;
+}
+
+@media (max-width: 952px){
+   label.logo{
+       font-size: 30px;
+
+   } 
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: courier New, monospace; 
+    font-size: 40px;
+}
+
+h2{
+    font-family: courier New, monospace;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.summaryTitle{
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+    width: 33.33%;
+    margin:auto;
+    margin-top: 25px;
+}
+
+.summary{
+    border-style: outset;
+    border-radius: 5px;
+    text-align: center;
+    width: 33.33%;
+    margin:auto;
+    margin-bottom: 20px;
+
+}
+.dotBorder{
+    border-style: double;
+}
+
+.aboutMe{
+    font-family: courier New, monospace;
+    text-align: center;
+    border-style: outset;
+    border-radius: 20px;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.Column{
+    float:left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.Column2{
+    float:left;
+    width: 49.33%;
+    padding: 10px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+.Conclusion{
+    height:200px;
+    display: table-cell;
+    vertical-align: bottom;
+    font-family: courier New, monospace;
+    object-position: center;
+    
+}
+
+.conclusionP:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.AboutM{
+background-image: url(https://toledolibrary.s3.amazonaws.com/uploads/images/blog/_large/Computer-Coding-Laptop.jpg);
+color: white;
+
+}
+
+.TopTP{
+    background-image: url(https://this.deakin.edu.au/wp-content/uploads/2019/06/coding-on-a-computer.jpg);
+    
+    color: white;
+
+}
+
+.OtherP{
+    background-image: url(https://toledolibrary.s3.amazonaws.com/uploads/images/blog/_large/Computer-Coding-Laptop.jpg);
+    
+    color: white;
+
+}
+
+.ConclusionP{
+    background-image: url(https://this.deakin.edu.au/wp-content/uploads/2019/06/coding-on-a-computer.jpg);
+    
+    color: white;
+}
+
+
+
+.projectOne{
+    font-family: courier New, monospace;
+    text-align: top;
+    border-style: outset;
+    float: left;
+    width: 31.33%;
+    padding: 15px;
+}
+
+.khanCenter{
+    object-position: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin: 0 auto;
+ text-align: center;
+}
+
+ul{
+    font-size: 20px;
+    font-family: math;
+}
+
+.topProjects{
+    margin-top: 20px;
+    margin-bottom: 500px;
+}
