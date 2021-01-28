@@ -62,11 +62,6 @@ nav ul li a{
     border-radius: 3px;
 }
 
-a.active, a.hover{
-background-color:#47476b;
-transition: .5s;
-}
-
 @media (max-width: 952px){
    label.logo{
        font-size: 30px;
@@ -75,7 +70,7 @@ transition: .5s;
 }
 
 h1{
-    text-align: center;
+    position: center;
     text-decoration: underline;
     font-family: courier New, monospace; 
     font-size: 40px;
@@ -187,9 +182,9 @@ color: white;
 
 }
 
-.ConclusionP{
+.refactoring{
     background-image: url(https://this.deakin.edu.au/wp-content/uploads/2019/06/coding-on-a-computer.jpg);
-    
+    position: center;
     color: white;
 }
 
@@ -221,4 +216,33 @@ ul{
 .topProjects{
     margin-top: 20px;
     margin-bottom: 500px;
+}
+
+.giphyOne{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+}
+
+.giphyTwo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+}
+
+.giphyP{
+    border-style: solid;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 50px;
+
+}
+
+.centering{
+    border-radius: 5px;
+    text-align: center;
+    width: 33.33%;
+    margin:auto;
 }
