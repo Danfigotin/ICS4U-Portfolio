@@ -4,6 +4,8 @@
 
 ### this is the portfolio website: https://danfigotin.github.io/ICS4UPortfolio.github.io/
 
+### Creative Project that I did with Gal Riger: https://github.com/Danfigotin/Creative-Coding-Challenge
+
 ## Three Questions:
 
 #### Summarize your experience with freecodecamp.
